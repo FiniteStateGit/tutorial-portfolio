@@ -42,6 +42,16 @@ export default class HTML extends React.Component {
             `,
             }}
           />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'O0JSWCAB58',
+    apiKey: '<d162a7d3e8d1ce3214362141655a4bee>',
+    siteId: 'addf1aa9-2e90-43b3-88c8-be584e0d5161',
+    branch: 'master',
+  });
+</script>
         </body>
       </html>
     );

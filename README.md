@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/addf1aa9-2e90-43b3-88c8-be584e0d5161/deploy-status)](https://app.netlify.com/sites/tutorial-portfolio/deploys)
+
 # gatsby-gitbook-starter
 
 Kick off your project with this starter to create a powerful/flexible docs/tutorial web apps.
@@ -47,7 +49,7 @@ Write markdown files in `content` folder.
 
 Open `config.js` for templating variables. Broadly configuration is available for `gatsby`, `header`, `sidebar` and `siteMetadata`.
 
-- `gatsby` config for global configuration like 
+- `gatsby` config for global configuration like
     - `pathPrefix` - Gatsby Path Prefix
     - `siteUrl` - Gatsby Site URL
     - `gaTrackingId` - Google Analytics Tracking ID
@@ -143,4 +145,3 @@ Canonical URLs are generated automatically.
 ## ☁️ Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hasura/gatsby-gitbook-starter)
-

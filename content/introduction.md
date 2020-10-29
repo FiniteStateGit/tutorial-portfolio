@@ -4,6 +4,8 @@ metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
 
+import { Message } from 'theme-ui'
+
 Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
 
 # Heading H1
@@ -29,3 +31,8 @@ Heading 6 text
 - Item 3
 - Item 4
 - Item 5
+
+
+<Message>
+  This is just a message for someone to read
+</Message>

@@ -6,8 +6,8 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: {logoImg},
-    logoLink: 'https://tutorial-portfolio.netlify.app/',
+    logo: "https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonlumberyard.svg",
+    logoLink: 'https://aws.amazon.com/lumberyard/',
     title:
       "<a href='https://tutorial-portfolio.netlify.app/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/FiniteStateGit/tutorial-portfolio',
@@ -27,19 +27,29 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
+      '/tutorial-1',
+      '/tutorial-2',
+      '/auxiliary-materials'
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
+      '/tutorial-1',
+      '/tutorial-2',
     ],
-    links: [{ text: 'Tutorial Portfolio', link: 'https://tutorial-portfolio.netlify.app/' }],
+    links: [
+            { text: 'Lumberyard Welcome Guide', link: 'https://docs.aws.amazon.com/lumberyard/latest/welcomeguide/index.html' },
+            { text: 'Lumberyard User Guide', link: 'https://docs.aws.amazon.com/lumberyard/latest/userguide/index.html' },
+            { text: 'Lumberyard Tutorials', link: 'https://docs.aws.amazon.com/lumberyard/latest/tutorials/index.html' },
+            { text: 'Lumberyard Engine API Reference', link: 'https://docs.aws.amazon.com/lumberyard/latest/apireference/index.html' },
+            { text: 'Lumberyard Developer Forums', link: 'https://forums.awsgametech.com/' },],
     frontline: false,
     ignoreIndex: true,
     title:
       "<a href='https://tutorial-portfolio.netlify.app/'>graphql </a><div class='greenCircle'></div><a href='https://tutorial-portfolio.netlify.app/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Tutorials by Jonathan Capes',
+    description: 'Documentation built with mdx.',
     ogImage: null,
     docsLocation: 'https://github.com/FiniteStateGit/tutorial-portfolio/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
@@ -50,13 +60,13 @@ const config = {
       name: 'Jonathan Capes - Tutorial Portfolio',
       short_name: 'TutorialPortfolio',
       start_url: '/',
-      background_color: '#6b37bf',
-      theme_color: '#6b37bf',
+      background_color: '#67459B',
+      theme_color: '#67459B',
       display: 'standalone',
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'src/pwa-512.png',
+          src: 'src/ly_512.png',
           sizes: `512x512`,
           type: `image/png`,
         },

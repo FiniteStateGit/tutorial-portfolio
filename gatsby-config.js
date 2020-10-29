@@ -12,6 +12,7 @@ const plugins = [
   },
   'gatsby-plugin-emotion',
   'gatsby-plugin-react-helmet',
+  'gatsby-plugin-theme-ui',
   {
     resolve: "gatsby-source-filesystem",
     options: {

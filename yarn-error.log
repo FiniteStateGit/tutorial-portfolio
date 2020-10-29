@@ -1,0 +1,110 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Graphviz2.38;C:\Program Files (x86)\Graphviz2.38\bin\dot.exe;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Jonathan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Inkscape\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.2.0\;C:\Program Files (x86)\IncrediBuild;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Yarn\bin\;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Graphviz2.38\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Local\atom\bin;C:\Users\Jonathan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonathan\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/styled-icons/-/styled-icons-9.5.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:482:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "gatsby-gitbook-boilerplate",
+    "private": true,
+    "description": "Documentation, built with mdx",
+    "author": "Praveen <praveen@hasura.io> (@praveenweb)",
+    "version": "0.0.1",
+    "dependencies": {
+      "@babel/plugin-proposal-export-default-from": "^7.7.4",
+      "@emotion/core": "^10.0.22",
+      "@emotion/styled": "^10.0.23",
+      "@emotion/styled-base": "^10.0.24",
+      "@mdx-js/loader": "^1.5.1",
+      "@mdx-js/mdx": "^1.5.1",
+      "@mdx-js/react": "^1.5.1",
+      "@philpl/buble": "^0.19.7",
+      "@playlyfe/gql": "^2.6.2",
+      "algoliasearch": "^3.35.1",
+      "dotenv": "^8.2.0",
+      "emotion": "^10.0.23",
+      "emotion-server": "^10.0.17",
+      "emotion-theming": "^10.0.19",
+      "gatsby": "^2.24.91",
+      "gatsby-link": "^2.2.27",
+      "gatsby-plugin-algolia": "^0.5.0",
+      "gatsby-plugin-emotion": "^4.1.18",
+      "gatsby-plugin-gtag": "^1.0.12",
+      "gatsby-plugin-layout": "^1.1.18",
+      "gatsby-plugin-manifest": "^2.2.33",
+      "gatsby-plugin-mdx": "^1.0.61",
+      "gatsby-plugin-offline": "^3.0.29",
+      "gatsby-plugin-react-helmet": "^3.1.18",
+      "gatsby-plugin-remove-serviceworker": "^1.0.0",
+      "gatsby-plugin-sharp": "^2.6.43",
+      "gatsby-plugin-sitemap": "^2.2.24",
+      "gatsby-remark-copy-linked-files": "^2.1.33",
+      "gatsby-remark-images": "^3.1.37",
+      "gatsby-source-filesystem": "^2.1.42",
+      "gatsby-transformer-remark": "^2.6.42",
+      "graphql": "^14.6.0",
+      "is-absolute-url": "^3.0.3",
+      "lodash.flatten": "^4.4.0",
+      "lodash.startcase": "^4.4.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-feather": "^2.0.3",
+      "react-github-btn": "^1.1.1",
+      "react-helmet": "^5.2.1",
+      "react-id-generator": "^3.0.0",
+      "react-instantsearch-dom": "^6.0.0",
+      "react-live": "^2.2.2",
+      "react-loadable": "^5.5.0",
+      "styled-components": "^4.4.1",
+      "styled-icons": "^9.0.1",
+      "yarn": "^1.22.10"
+    },
+    "license": "MIT",
+    "main": "n/a",
+    "scripts": {
+      "start": "gatsby develop",
+      "build": "gatsby build --prefix-paths",
+      "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+      "lint": "eslint --fix \"src/**/*.{js,jsx}\""
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-prettier": "^3.1.2",
+      "eslint-plugin-react": "^7.19.0",
+      "gatsby-plugin-remove-trailing-slashes": "^2.1.17",
+      "prettier": "^1.19.1",
+      "prism-react-renderer": "^1.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

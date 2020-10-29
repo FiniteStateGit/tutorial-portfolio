@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    logo: 'src/components/images/amazonlumberyard.svg',
     logoLink: 'https://tutorial-portfolio.netlify.app/',
     title:
       "<a href='https://tutorial-portfolio.netlify.app/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",

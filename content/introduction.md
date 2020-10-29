@@ -19,8 +19,7 @@ Heading 3 text
 Heading 4 text
 
 ##### Heading H5
-Heading 5 text
-
+New Text
 ###### Heading H6
 Heading 6 text
 

@@ -26,15 +26,13 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
-      '/tutorial-1',
-      '/tutorial-2',
-      '/auxiliary-materials'
+      '/01-popups',
+      '/02',
+      '/auxiliary'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
-      '/tutorial-1',
-      '/tutorial-2',
+      '/01-popups', // add trailing slash if enabled above
+      '/02',
     ],
     links: [
             { text: 'Lumberyard Welcome Guide', link: 'https://docs.aws.amazon.com/lumberyard/latest/welcomeguide/index.html' },
@@ -45,7 +43,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://tutorial-portfolio.netlify.app/'>graphql </a><div class='greenCircle'></div><a href='https://tutorial-portfolio.netlify.app/'>react</a>",
+      "Tutorials by Jonathan Capes",
   },
   siteMetadata: {
     title: 'Tutorials by Jonathan Capes',

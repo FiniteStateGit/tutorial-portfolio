@@ -1,7 +1,9 @@
-public/**
+/public/**/*
 .cache
 node_modules
 *DS_Store
 *.env
-
+.editorconfig
 .idea/
+yarn-error.log
+yarn.lock

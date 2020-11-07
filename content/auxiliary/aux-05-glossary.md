@@ -1,8 +1,7 @@
 ---
 title: "Glossary"
-metaTitle: "Lumberyard Terminology and Concepts"
+metaTitle: "Terminology and Concepts"
 metaDescription: "Collection of terms and concepts that may be unfamiliar to users"
 ---
-Introduction
 
-# Lumberyard Terminology and Concepts
+# Lumberyard, Game Design, Programming Terminology and Concepts

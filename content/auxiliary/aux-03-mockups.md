@@ -1,8 +1,7 @@
 ---
 title: "Mock-ups"
 metaTitle: "Mock-up Library"
-metaDescription: "Mock-ups of new template designs"
+metaDescription: "Mock-ups of new designs"
 ---
-Introduction
 
 # Mock-up Library

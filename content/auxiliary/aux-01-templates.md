@@ -3,57 +3,13 @@ title: "Templates"
 metaTitle: "Template Library"
 metaDescription: "Collection of templates used in tutorials"
 ---
-import { Message } from 'theme-ui'
 
-Introduction
+# Template Library
 
-# Info Boxes
-# Tables
-| Syntax | Description |
-| - | - |
-| Header | Title |
-| Paragraph | Text |
+# Image Specifications
 
-# Images
-
-![Cluster of circles](../images/01/10_4.jpg "An Urquhart Graph")
-> An Urquhart Graph
-
-# Checkboxes
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-# Blockquote
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-# Message
-<Message>
-  Message
-</Message>
-
-<Message color='yellow'>
-    ![Alert](../images/icons/alert-triangle.svg "Alert")
-</Message>
-
-![Alert](../images/icons/alert-triangle.svg "Alert")
-
-
-
-# Reference-style Link
-[hobbit-hole][1]
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+|Image Type|Aspect|Pixel Width|Pixel Height|Notes|
+|----------|------|-----------|------------|-----|
+|Screenshot|HD|1280|720|Full-screen and partials|
+|Single Node|HD|N/A|N/A|Max 2.0x SC Zoom Trimmed to Content|
+|Multiple Nodes|HD|1280|720|Max 2.0x SC Zoom Trimmed to Content|

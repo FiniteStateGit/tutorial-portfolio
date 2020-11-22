@@ -5,14 +5,14 @@ metaDescription: "Learn how to select objects in your game using the mouse curso
 ---
 
 ##### Tutorial Overview:
+-  Set up a level to use PhysX raycasting.
 -  Create a reusable function to Raycast to the mouse cursor.
--  Extend the function to draw a visible ray on-screen.
 -  Create a Script Canvas graph using the Raycast function.
--  Extend the graph to select different kinds of objects in your game based on PhysX Collision Groups.
+-  Filter the raycasts based on PhysX Collision Groups.
 
-# Raycast to Cursor Position Function
+# Raycast to Cursor Function
 
-When the following function is used, if the mouse cursor is pointing to an entity in the level, the **Entity ID**, **Distance** from the camera, world-space **Position** as well as the **Normal** vector and **Surface** Crc32 at that position is returned.
+When the following function is used, if the mouse cursor is pointing to an entity in the level, the **Entity ID**, **Distance** from the camera, world-space **Position** as well as the **Normal** vector and **Surface** Crc32 at that position are returned.
 
 If the mouse cursor is *not* pointed to a valid entity, if the entity is too far away, or the **Collision Group** does not match, the function does *not* trigger its output.
 
@@ -20,7 +20,7 @@ The **Camera** entity must be set to the active camera at the time of raycasting
 
 If **Draw Raycast?** is set to **True**, the raycast will be drawn on-screen in the **Draw Color** for the **Draw Time** in *seconds*.
 
-# Function Node
+# The Function Node
 
 ![The Function](../images/02/rc-04.png "The Function")
 

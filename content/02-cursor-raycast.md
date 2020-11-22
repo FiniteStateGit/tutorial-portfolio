@@ -1,23 +1,19 @@
 ---
 title: "Raycasting to the Cursor"
-metaTitle: "Select Game Objects with the Mouse Cursor"
+metaTitle: "Select entities during gameplay with the mouse cursor."
 metaDescription: "Learn how to select objects in your game using the mouse cursor.  Filter the objects with Collision Groups"
 ---
 
 # Introduction
 
-Raycasting uses (quick)
-- check obstruction
-- gather additional info about world or object (surface, player height wall height ceiling, distance to obstruction)
-
-Select Game Objects with the Mouse Cursor
+Select entities during gameplay with the mouse cursor.
 
 In this tutorial learn how to:
 
+-  Set up a level to use PhysX raycasting.
 -  Create a reusable function to Raycast to the mouse cursor.
--  Extend the function to draw a visible ray on-screen.
 -  Create a Script Canvas graph using the Raycast function.
--  Extend the graph to select different kinds of objects in your game based on PhysX Collision Groups.
+-  Filter the raycasts based on PhysX Collision Groups.
 
 ![Raycasting to the Cursor](../images/02/rc-03.png "Raycasting to the Cursor")
 > Raycasting to the Cursor

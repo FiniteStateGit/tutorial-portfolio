@@ -9,7 +9,7 @@ import config from '../../../config';
 const ListItem = styled(({ className, active, level, ...props }) => {
   return (
     <li className={className}>
-      <a href={props.to} {...props} target="_blank" rel="noopener noreferrer">
+      <a href={props.to} {...props} rel="noopener noreferrer">
         {props.children}
       </a>
     </li>
@@ -26,7 +26,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: #1ed3c6 !important;
+      color: #fff !important;
     }
 
     ${props =>

@@ -19,7 +19,7 @@ Now that you have a function created to raycast, set up a Script Canvas graph to
 
 # Create the Script Canvas Graph
 
-<a href="../images/02/rc-01.png" target="_blank">
+<a href="../images/02/rc-01.png">
   <img align="center" src="../images/02/rc-01.png"/>
 </a>
 

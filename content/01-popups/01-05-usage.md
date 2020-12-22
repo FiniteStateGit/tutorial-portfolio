@@ -21,7 +21,7 @@ The **Show Popup** node with **Button Kind** set to **2** remains on-screen unti
 
 ### Graph of Function
 
-<a href="../images/01/ex-02.png" target="_blank">
+<a href="../images/01/ex-02.png">
   <img align="center" src="../images/01/ex-02.png"/>
 </a>
 
@@ -46,7 +46,7 @@ Display a Yes/No Popup. If the player clicks 'yes', tell them the *consequence* 
 
 ### Graph of Function
 
-<a href="../images/01/ex-04.png" target="_blank">
+<a href="../images/01/ex-04.png">
   <img align="center" src="../images/01/ex-04.png"/>
 </a>
 
@@ -69,7 +69,7 @@ Ensure that Toast notifications never overlap with the following function. Provi
 
 ### Graph of Function
 
-<a href="../images/01/ex-06.png" target="_blank">
+<a href="../images/01/ex-06.png">
   <img align="center" src="../images/01/ex-06.png"/>
 </a>
 
@@ -92,7 +92,7 @@ Ensure that Buttonless Popups never overlap and give them a timeout with the fol
 
 ### Graph of Function
 
-<a href="../images/01/ex-08.png" target="_blank">
+<a href="../images/01/ex-08.png">
   <img align="center" src="../images/01/ex-08.png"/>
 </a>
 
@@ -114,7 +114,7 @@ Hide any Toast notification or Popup, regardless of **Button Kind**, after a **T
 
 ### Graph of Function
 
-<a href="../images/01/ex-10.png" target="_blank">
+<a href="../images/01/ex-10.png">
   <img align="center" src="../images/01/ex-10.png"/>
 </a>
 
@@ -148,6 +148,6 @@ Display Toast notifications as tags are added to the player. If a tag is in the 
 
 ### Graph of Function
 
-<a href="../images/01/ex-12.png" target="_blank">
+<a href="../images/01/ex-12.png">
   <img align="center" src="../images/01/ex-12.png"/>
 </a>

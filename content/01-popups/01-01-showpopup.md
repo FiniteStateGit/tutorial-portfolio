@@ -24,7 +24,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 # The Show Popup Node
 
-![The Show Popup Node](../images/01/popups-03.png "The Show Popup Node")
+![The Show Popup Node](images/01/popups-03.png?raw=true "The Show Popup Node")
 
 5. The **Show Popup** node has two input fields.
 

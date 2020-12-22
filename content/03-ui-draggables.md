@@ -19,5 +19,8 @@ In this tutorial learn how to:
 
 # Project Requirements
 
-The Script Canvas Gem must be enabled for your project.   
-The Starting Point Input Gem must be enabled for your project.
+For this tutorial the following Gems *and* their dependencies must be enabled in your project:
+
+Script Canvas
+Starting Point Input
+UI Basics

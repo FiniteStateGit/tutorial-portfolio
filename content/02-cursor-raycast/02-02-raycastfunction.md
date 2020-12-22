@@ -20,6 +20,8 @@ The **Camera** entity must be set to the active camera at the time of raycasting
 
 If **Draw Raycast?** is set to **True**, the raycast will be drawn on-screen in the **Draw Color** for the **Draw Time** in *seconds*.
 
+>Note: The function's In and Out nodes are placed on the graph from the Script Canvas toolbar at the top of the graph.
+
 # The Function Node
 
 ![The Function](../images/02/rc-04.png "The Function")
@@ -44,11 +46,11 @@ If **Draw Raycast?** is set to **True**, the raycast will be drawn on-screen in 
 |Entity ID|Entity ID||Out|
 |Normal|Vector3||Out|
 |Position|Vector3||Out|
-|Surface|CRC32||Out|
+|Surface|CRC||Out|
 
 # Graph of Function
 
-<a href="../images/02/rc-02.png" target="_blank">
+<a href="../images/02/rc-02.png">
   <img align="center" src="../images/02/rc-02.png"/>
 </a>
 

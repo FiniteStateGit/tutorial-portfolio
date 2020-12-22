@@ -6,10 +6,10 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: "https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonlumberyard.svg",
-    logoLink: 'https://aws.amazon.com/lumberyard/',
+    logo: "",
+    logoLink: 'https://tutorial-portfolio.netlify.app/',
     title:
-      "<a href='https://tutorial-portfolio.netlify.app/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "<a href='https://tutorial-portfolio.netlify.app/'>Tutorials</a>",
     githubUrl: 'https://github.com/FiniteStateGit/tutorial-portfolio',
     helpUrl: '',
     tweetText: '',
@@ -25,7 +25,7 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
+      '/', // add trailing slash if enabled above
       '/01-popups',
       '/02-cursor-raycast',
       '/03-ui-draggables',
@@ -42,13 +42,9 @@ const config = {
       '/14-ai-decisionmaps',
       '/15-ai-goap',
       '/16-ai-tasknetworks',
-      '/17-ai-infiniteaxis',
-      '/auxiliary'
+      '/17-ai-infiniteaxis'
     ],
     collapsedNav: [
-      '/01-popups', // add trailing slash if enabled above
-      '/02-cursor-raycast',
-      '/03-ui-draggables',
       '/04-group-selection',
       '/05-force-movement',
       '/06-input-contexts',
@@ -71,16 +67,15 @@ const config = {
             { text: 'Lumberyard Engine API Reference', link: 'https://docs.aws.amazon.com/lumberyard/latest/apireference/index.html' },
             { text: 'Lumberyard Developer Forums', link: 'https://forums.awsgametech.com/' },],
     frontline: false,
-    ignoreIndex: true,
+    ignoreIndex: false,
     title:
-      "Tutorials by Jonathan Capes",
+      "Lumberyard Tutorials by Jonathan Capes",
   },
   siteMetadata: {
-    title: 'Tutorials by Jonathan Capes',
-    description: 'Documentation built with mdx.',
+    title: 'Lumberyard Tutorials',
+    description: 'Lumberyard Tutorials by Jonathan Capes',
     ogImage: null,
     docsLocation: 'https://github.com/FiniteStateGit/tutorial-portfolio/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
@@ -92,13 +87,6 @@ const config = {
       theme_color: '#67459B',
       display: 'standalone',
       crossOrigin: 'use-credentials',
-      icons: [
-        {
-          src: 'src/ly_512.png',
-          sizes: `512x512`,
-          type: `image/png`,
-        },
-      ],
     },
   },
 };

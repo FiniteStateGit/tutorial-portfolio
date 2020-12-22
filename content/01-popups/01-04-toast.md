@@ -24,9 +24,10 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 3. In the Popup Script Canvas graph replace the two **Print** nodes with **Show Toast** nodes. Set the **Message** and **Duration** on each node.
 
-<a href="../images/01/popups-12.png" target="_blank">
+<a href="../images/01/popups-12.png">
   <img align="center" src="../images/01/popups-12.png"/>
 </a>
+
 > Step 3: The completed Script Canvas Graph
 
 4. Save the graph and play the level. Toast notifications display in the bottom right corner of the screen when the Yes and No buttons are pressed.

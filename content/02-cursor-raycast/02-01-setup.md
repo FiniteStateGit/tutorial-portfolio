@@ -33,4 +33,4 @@ The target's collision layer may be left as their default values.  Collision fil
 ![An example input bindings file.](../images/02/rc-10.png "An example input bindings file.")
 >  An example input bindings file.
 
-4. Open the Script Canvas Editor and create a new function.  The next section of the tutorial describes the contents of your new function.  Save your function when you have completed it.
+4. Open the Script Canvas Editor and create a new blank function.  The next section of the tutorial describes the what should go in your new function.  Save your function when you have completed it.

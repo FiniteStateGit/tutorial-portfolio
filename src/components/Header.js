@@ -132,7 +132,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                         <a
                           className="sidebarLink"
                           href={link.link}
-                          target="_blank"
+                         
                           rel="noopener noreferrer"
                           dangerouslySetInnerHTML={{ __html: link.text }}
                         />
@@ -152,7 +152,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                   <li>
                     <a
                       href={'https://twitter.com/intent/tweet?&text=' + tweetText}
-                      target="_blank"
+                     
                       rel="noopener noreferrer"
                     >
                       <img className={'shareIcon'} src={twitter} alt={'Twitter'} />

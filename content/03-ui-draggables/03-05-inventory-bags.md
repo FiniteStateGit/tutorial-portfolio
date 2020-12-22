@@ -25,7 +25,7 @@ Now we'll create a container to hold the inventories of up to three open bags.  
 
 6. Select **Slot1**, right-click and copy (Hotkey: Ctrl+c).  Select **Bag1** and right-click *Paste as child* (Hotkey: Ctrl+Shift+v). Do this until you have 12 slots.
 
-<a href="../images/03/drag-12.png" target="_blank">
+<a href="../images/03/drag-12.png">
   <img align="center" src="../images/03/drag-12.png"/>
 </a>
 

@@ -38,7 +38,7 @@ export const baseStyles = injectGlobal`
   }
 
   body {
-    font-family: 'Roboto';
+    font-family: 'Segoe UI';
   }
   .visibleMobile {
     display: none;
@@ -76,7 +76,7 @@ export const baseStyles = injectGlobal`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #001934;
+    background-color: #112833;
   }
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
@@ -134,7 +134,7 @@ export const baseStyles = injectGlobal`
 
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #001933;
+    background-color: #112833;
   }
 
   .headerWrapper {
@@ -257,7 +257,7 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #112833;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -320,9 +320,9 @@ export const baseStyles = injectGlobal`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
-    color: rgb(116, 129, 141);
+    color: rgb(116, 116, 116);
     margin: 0px 0px 24px;
     padding: 0px 0px 0px 12px;
     border-left: 4px solid rgb(230, 236, 241);
@@ -374,7 +374,7 @@ export const baseStyles = injectGlobal`
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
-    color: #001934;
+    color: #112833;
     display: flex;
     align-items: center;
   }
@@ -384,7 +384,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sidebarTitle a {
-    color: #001934;
+    color: #112833;
   }
 
   .greenCircle {
@@ -398,14 +398,14 @@ export const baseStyles = injectGlobal`
   .headerNav {
     font-family: 'Roboto';
     padding: 0px 24px;
-    color: #001933;
+    color: #112833;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
   }
 
   .headerNav a {
-    color: #001933;
+    color: #112833;
     text-decoration: none;
   }
 
@@ -414,6 +414,7 @@ export const baseStyles = injectGlobal`
   }
 
   .logoWrapper img {
+    color: #000;
     width: 40px;
   }
 
@@ -457,7 +458,7 @@ export const baseStyles = injectGlobal`
     fill: #fff !important;
   }
   .active .collapser > svg > path {
-    fill: #001933 !important;
+    fill: #112833 !important;
   }
 
   .firstLevel ul .item ul .item {
@@ -481,12 +482,12 @@ export const baseStyles = injectGlobal`
   }
 
   .showFrontLine .item > a:hover {
-    background-color: #001933;
+    background-color: #112833;
   }
 
   .showFrontLine .active > a {
     /* color: #fff; */
-    background-color: #001933;
+    background-color: #112833;
   }
 
   .sideBarUL .item .item {
@@ -549,7 +550,7 @@ export const baseStyles = injectGlobal`
     display: block;
     margin: 0px;
     padding: 0px;
-    color: #6e6e6e;
+    color: #FAFAFA;
   }
 
   .smallContent span {
@@ -665,7 +666,7 @@ export const baseStyles = injectGlobal`
 
   .heading1 {
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -673,7 +674,7 @@ export const baseStyles = injectGlobal`
 
   .heading2 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -681,7 +682,7 @@ export const baseStyles = injectGlobal`
 
   .heading3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -689,7 +690,7 @@ export const baseStyles = injectGlobal`
 
   .heading4 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -705,7 +706,7 @@ export const baseStyles = injectGlobal`
 
   .heading6 {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -734,13 +735,13 @@ export const baseStyles = injectGlobal`
 
   @media (max-width: 767px) {
     .formElement svg path {
-      fill: #001934;
+      fill: #112833;
     }
     .visibleMobileView {
       display: block !important;
     }
     .searchInput {
-      color: #001934;
+      color: #112833;
     }
     .socialWrapper {
       position: absolute;

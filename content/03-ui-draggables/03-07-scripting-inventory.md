@@ -19,7 +19,7 @@ Open the Asset Editor and create a new Input Bindings file.  Add two **Input Eve
 
 Now we'll make a new Script Canvas graph to control the UI.  Open the Script Canvas Editor and create the following graph.  Save it as *'ui-inventory.scriptcanvas'* in your project directory when you are finished.
 
-<a href="../images/03/sc-03.png" target="_blank">
+<a href="../images/03/sc-03.png">
   <img align="center" src="../images/03/sc-03.png"/>
 </a>
 
@@ -49,7 +49,7 @@ Now we'll make a new Script Canvas graph to control the UI.  Open the Script Can
 
 # How it Works
 
-<a href="../images/03/sc-04.png" target="_blank">
+<a href="../images/03/sc-04.png">
   <img align="center" src="../images/03/sc-04.png"/>
 </a>
 

@@ -20,5 +20,7 @@ In this tutorial learn how to:
 
 # Project Requirements
 
-The Script Canvas Gem must be enabled for your project.   
-The PhsX Gem must be enabled for your project.    
+For this tutorial the following Gems *and* their dependencies must be enabled in your project:
+Script Canvas
+PhsX
+DebugDraw

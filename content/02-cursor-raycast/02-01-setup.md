@@ -30,7 +30,7 @@ The target's collision layer may be left as their default values.  Collision fil
 
 3. The raycast will be triggered by player input.  Add an Input component to the camera entity.  Create an input bindings file  in the Asset Editor with at least one input event set up.  Set the Input component to load the input bindings you created.  In this tutorial, an event from the mouse is set up, when the Left Mouse Button is pressed it generates the event named 'LMB'.
 
-![An example input bindings file.](../images/02/rc-10.png "An example input bindings file.")
+![An example input bindings file.](/images/02/rc-10.png "An example input bindings file.")
 >  An example input bindings file.
 
 4. Open the Script Canvas Editor and create a new blank function.  The next section of the tutorial describes the what should go in your new function.  Save your function when you have completed it.

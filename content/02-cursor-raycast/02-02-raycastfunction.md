@@ -24,7 +24,7 @@ If **Draw Raycast?** is set to **True**, the raycast will be drawn on-screen in 
 
 # The Function Node
 
-![The Function](../images/02/rc-04.png "The Function")
+![The Function](/images/02/rc-04.png "The Function")
 
 # Graph Variables
 

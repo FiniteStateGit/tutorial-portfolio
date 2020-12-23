@@ -37,7 +37,7 @@ Now we'll create a container to hold the inventories of up to three open bags.  
 
 9.  Add a few draggable slices to Bag1, changing their Image Index and CounterText (for the stackable variety).
 
-![The Completed Canvas in Preview Mode](../images/03/drag-13.png "The Completed Canvas in Preview Mode")
+![The Completed Canvas in Preview Mode](/images/03/drag-13.png "The Completed Canvas in Preview Mode")
 > Step 9. The Completed Canvas in Preview Mode
 
 10.  Save the UI Canvas to your project directory.  Next we'll create the Script Canvas graphs for stacking and non-stacking draggables.

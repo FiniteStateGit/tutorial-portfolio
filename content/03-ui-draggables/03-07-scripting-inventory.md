@@ -74,7 +74,7 @@ After saving the Script Canvas graph reopen UI canvas you created.
 8. In the Hierarchy panel select the **Main** element and add a **Script Canvas** component.  Select *'ui-inventory.scriptcanvas'* as the asset.
 9. Assign your input variables by clicking the picker icon and then left-clicking on the appropriate element in the Hierarchy panel.  If you have no character screen, it can be left unassigned in the Script Canvas component. Save your canvas.
 
-![The Main Element's Script Canvas Configuration](../images/03/drag-14.png "The Main Element's Script Canvas Configuration")
+![The Main Element's Script Canvas Configuration](/images/03/drag-14.png "The Main Element's Script Canvas Configuration")
 > Step 9. The Main Element's Script Canvas Configuration
 
 # Add the Input Bindings and Play the Level

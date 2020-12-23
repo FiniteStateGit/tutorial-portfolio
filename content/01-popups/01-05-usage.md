@@ -10,7 +10,7 @@ The **Show Popup** node with **Button Kind** set to **2** remains on-screen unti
 
 ### Function Node
 
-![The Function](../images/01/ex-01.png "The Function")
+![The Function](/images/01/ex-01.png "The Function")
 
 ### Graph Variables
 
@@ -31,7 +31,7 @@ Display a Yes/No Popup. If the player clicks 'yes', tell them the *consequence* 
 
 ### Function Node
 
-![The Function](../images/01/ex-03.png "The Function")
+![The Function](/images/01/ex-03.png "The Function")
 
 ### Graph Variables
 
@@ -56,7 +56,7 @@ Ensure that Toast notifications never overlap with the following function. Provi
 
 ### Function Node
 
-![The Function](../images/01/ex-05.png "The Function")
+![The Function](/images/01/ex-05.png "The Function")
 
 ### Graph Variables
 
@@ -79,7 +79,7 @@ Ensure that Buttonless Popups never overlap and give them a timeout with the fol
 
 ### Function Node
 
-![The Function](../images/01/ex-07.png "The Function")
+![The Function](/images/01/ex-07.png "The Function")
 
 ### Graph Variables
 
@@ -102,7 +102,7 @@ Hide any Toast notification or Popup, regardless of **Button Kind**, after a **T
 
 ### Function Node
 
-![The Function](../images/01/ex-09.png "The Function")
+![The Function](/images/01/ex-09.png "The Function")
 
 ### Graph Variables
 
@@ -134,7 +134,7 @@ Display Toast notifications as tags are added to the player. If a tag is in the 
 
 ### Function Node
 
-![The Function](../images/01/ex-11.png "The Function")
+![The Function](/images/01/ex-11.png "The Function")
 
 ### Graph Variables
 

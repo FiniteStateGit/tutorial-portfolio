@@ -15,7 +15,7 @@ In this tutorial learn how to:
 -  Create a Script Canvas graph using the Raycast function.
 -  Filter the raycasts based on PhysX Collision Groups.
 
-![Raycasting to the Cursor](../images/02/rc-03.png "Raycasting to the Cursor")
+![Raycasting to the Cursor](/images/02/rc-03.png "Raycasting to the Cursor")
 > Raycasting to the Cursor
 
 # Project Requirements

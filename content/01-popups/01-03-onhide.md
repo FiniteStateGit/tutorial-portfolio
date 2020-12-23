@@ -12,7 +12,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 # The On Hide node
 
-![The On Hide Node](../images/01/popups-08.png "The On Hide Node")
+![The On Hide Node](/images/01/popups-08.png "The On Hide Node")
 
 1. The **On Hide** node has one input field, **Source**, and EntityID. This should be set to the entity that is creating Popups.
 
@@ -50,6 +50,6 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 8. Save the graph. Ensure the console is open in the editor, or press tilde \` to toggle the console open while the level is running. Play the level and press Yes or No on the Popup. The **Print** nodes should display which button was pressed in the console.
 
-![Step 8: Console output](../images/01/popups-10.png "Step 8: Console output")
+![Step 8: Console output](/images/01/popups-10.png "Step 8: Console output")
 
 9. In the next section of this tutorial, you will replace the **Print** nodes with Toast!

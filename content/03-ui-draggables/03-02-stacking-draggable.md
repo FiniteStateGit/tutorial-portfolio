@@ -19,7 +19,7 @@ metaDescription: "Create UI slices for drag and drop stacking and non-stacking e
 
 4. As before, set the Sprite path of the **Image** component of CounterBox to a sliced button or a color fill. It needs visual contrast from the background gray color, so the default (255,255,255) white color can remain.
 
-![The CounterBox Element Configuration](../images/03/drag-06.png "The CounterBox Element Configuration")
+![The CounterBox Element Configuration](/images/03/drag-06.png "The CounterBox Element Configuration")
 > Step 4. The CounterBox Element Configuration
 
 5. Right-Click on the **CounterBox** element and add a new Text element from the slice library, rename it *CounterText*.
@@ -28,9 +28,9 @@ metaDescription: "Create UI slices for drag and drop stacking and non-stacking e
 
 7. In the **Transform2D** component of CounterText, set the anchors to be *centered*.  **XPos** and **YPos** Offsets set to *-1* should center the text in the CounterBox.
 
-![The CounterText Element Configuration](../images/03/drag-07.png "The CounterText Element Configuration")
+![The CounterText Element Configuration](/images/03/drag-07.png "The CounterText Element Configuration")
 > Step 7. The CounterText Element Configuration
 
-8. Select Draggable-Stacking-Sprite in the Hierarchy panel.  In the **Script Canvas** component, click the X icon to unload *'draggable.scriptcanvas'*.  Press ![](../images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.  Save the blank Script Canvas graph as *'stacking-draggable.scriptcanvas'* and close the Script Canvas editor.  We can edit the graph later, *'stacking-draggable.scriptcanvas'* should be set as the **Script Canvas Asset** in the **Script Canvas** component.
+8. Select Draggable-Stacking-Sprite in the Hierarchy panel.  In the **Script Canvas** component, click the X icon to unload *'draggable.scriptcanvas'*.  Press ![](/images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.  Save the blank Script Canvas graph as *'stacking-draggable.scriptcanvas'* and close the Script Canvas editor.  We can edit the graph later, *'stacking-draggable.scriptcanvas'* should be set as the **Script Canvas Asset** in the **Script Canvas** component.
 
 8. In the Hierarchy panel, select all four elements of the Draggable-Stacking-Sprite, right-click on Draggable-Stacking-Sprite and select *Push to Slice...*.  Ensure this is saving to *'Draggable-Stacking-Sprite.slice'* and not the regular draggable slice.

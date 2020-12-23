@@ -76,7 +76,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={data => {
-      const logoImg = require('./images/amazonlumberyard.svg');
+      const logoImg = require('./images/1bitalpha.png');
 
       const twitter = require('./images/twitter.svg');
 
@@ -101,6 +101,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                   className={'img-responsive displayInline'}
                   src={logo.image !== '' ? logo.image : logoImg}
                   alt={'logo'}
+                  height={'128px'}
                 />
               </Link>
               <div
@@ -132,7 +133,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                         <a
                           className="sidebarLink"
                           href={link.link}
-                         
+
                           rel="noopener noreferrer"
                           dangerouslySetInnerHTML={{ __html: link.text }}
                         />
@@ -152,7 +153,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                   <li>
                     <a
                       href={'https://twitter.com/intent/tweet?&text=' + tweetText}
-                     
+
                       rel="noopener noreferrer"
                     >
                       <img className={'shareIcon'} src={twitter} alt={'Twitter'} />

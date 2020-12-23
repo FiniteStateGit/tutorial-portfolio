@@ -11,7 +11,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 # The Show Toast node
 
-![The Show Toast Node](../images/01/popups-11.png "The Show Toast Node")
+![The Show Toast Node](/images/01/popups-11.png "The Show Toast Node")
 
 1. The **Show Toast** node has two input fields.
 
@@ -32,7 +32,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 4. Save the graph and play the level. Toast notifications display in the bottom right corner of the screen when the Yes and No buttons are pressed.
 
-![Step 4: Playing the level](../images/01/popups-13.png "Step 4: Playing the level")
+![Step 4: Playing the level](/images/01/popups-13.png "Step 4: Playing the level")
 
 # Conclusion
 

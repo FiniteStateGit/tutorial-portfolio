@@ -21,7 +21,7 @@ Drop targets are the inventory slots or spaces, each drop target can hold a sing
 
 4. Add a **DropTarget** component, add a Color parameter to the **Valid** and **Invalid** States.  The **Valid** Drop state uses (115,250,105) light-green, and the **Invalid** Drop state uses (255,75,75) light-red.
 
-![The DropTarget-Sprite Element Configuration](../images/03/drag-08.png "The DropTarget-Sprite Element Configuration")
+![The DropTarget-Sprite Element Configuration](/images/03/drag-08.png "The DropTarget-Sprite Element Configuration")
 > Step 4. The DropTarget-Sprite Element Configuration
 
 5. Add a **Lua Script** component, selecting the *'drop-target-stacking.lua'* file that you saved to your project directory.
@@ -40,7 +40,7 @@ Now we'll make a standard container that we can reuse throughout the UI that hol
 
 10. In the Hierarchy panel, right-click Droptarget-Container and select *New...*, *Element from Slice Browser..*, and choose the Droptarget-Sprite slice.  The slice should be added as a child of Droptarget-Container.  Only one drop target is needed now, when you use the container slice in a canvas, the drop-target can be renamed before a copy is made for each inventory slot.
 
-![The DropTarget-Container Element Configuration](../images/03/drag-09.png "The DropTarget-Container Element Configuration")
+![The DropTarget-Container Element Configuration](/images/03/drag-09.png "The DropTarget-Container Element Configuration")
 > Step 10. The DropTarget-Container Element Configuration
 
 11. With *both* Droptarget-Container and Droptarget-Sprite selected in the Hierarchy panel, right-click on Droptarget-Container and select *Make Detached Slice from Selected Entities...*.  Name the slice *'Droptarget-Container.slice'* and save it to your project directory.

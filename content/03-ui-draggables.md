@@ -14,7 +14,7 @@ In this tutorial learn how to:
 -  Create drop target, stacking and non-stacking draggable UI slices.
 -  Create an interactive UI canvas with draggables.
 
-![Interactive UI with Hotbar and Inventory](../images/03/drag-01.png "Interactive UI with Hotbar and Inventory")
+![Interactive UI with Hotbar and Inventory](/images/03/drag-01.png "Interactive UI with Hotbar and Inventory")
 > Interactive UI with Hotbar and Inventory
 
 # Project Requirements

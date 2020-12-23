@@ -11,7 +11,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 # The Hide Popup Node
 
-![The Hide Popup Node](../images/01/popups-06.png "The Hide Popup Node")
+![The Hide Popup Node](/images/01/popups-06.png "The Hide Popup Node")
 
 1. The **Hide Popup** node has two input fields.
 

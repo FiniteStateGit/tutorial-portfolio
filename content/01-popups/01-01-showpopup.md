@@ -12,7 +12,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 # Level Setup
 
 1. In your level, create a new entity and add a Script Canvas component to it.
-2. In the script canvas component, press ![](../images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.
+2. In the script canvas component, press ![](/images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.
 
 # Edit the SC graph
 
@@ -47,13 +47,13 @@ Note: With Button Kind 2 selected, the Popup will remain on-screen until it is h
 
 8. Save the graph ( Hotkey: Ctrl+S ) and close or minimize the Script Canvas editor.
 
-![Step 8: Completed Script Canvas Graph](../images/01/popups-04.png "Step 8: Completed Script Canvas Graph")
+![Step 8: Completed Script Canvas Graph](/images/01/popups-04.png "Step 8: Completed Script Canvas Graph")
 > Step 8: The completed Script Canvas Graph
 
-9. Check that the graph has been loaded into the entity's Script Canvas component. If the **Script Canvas Asset** field is empty, press ![](../images/icons/editor/tree.png) 'Pick Script Canvas' and select the graph you created.
+9. Check that the graph has been loaded into the entity's Script Canvas component. If the **Script Canvas Asset** field is empty, press ![](/images/icons/editor/tree.png) 'Pick Script Canvas' and select the graph you created.
 
 10. Save the level ( Hotkey: Ctrl+S ). Play the level ( Hotkey: Ctrl+G ).
 
 11. Your message should display on-screen in a Popup with the rest of the screen dimmed. A cursor is automatically shown, and you can click the OK button to close the Popup. The cursor is hidden after the Popup closes.
 
-![Step 11: Playing the level](../images/01/popups-05.png "Step 11: Playing the level")
+![Step 11: Playing the level](/images/01/popups-05.png "Step 11: Playing the level")

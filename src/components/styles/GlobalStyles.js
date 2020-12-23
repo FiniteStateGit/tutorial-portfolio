@@ -222,12 +222,11 @@ export const baseStyles = injectGlobal`
     font-size: 14px;
   }
   .headerTitle {
-    height: auto;
+    height: 0px;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
     color: #fff !important;
-    margin-top: 16px;
     text-transform: uppercase;
   }
   .headerTitle a {
@@ -275,6 +274,7 @@ export const baseStyles = injectGlobal`
   }
   .navBarHeader {
     min-width: 335px;
+    margin-top: 50px;
     padding-right: 20px;
     display: flex;
     align-items: center;
@@ -415,7 +415,6 @@ export const baseStyles = injectGlobal`
 
   .logoWrapper img {
     color: #000;
-    width: 40px;
   }
 
   .sideBarUL {

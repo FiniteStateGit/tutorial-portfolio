@@ -14,10 +14,10 @@ In this tutorial learn how to:
 -  Receive player input with optional OK or Yes/No buttons.
 -  Use Toast to display notifications at the bottom of the screen.  
 
-![Popup with Yes/No Buttons](../images/01/popups-01.png "Popup with Yes/No Buttons")
+![Popup with Yes/No Buttons](/images/01/popups-01.png "Popup with Yes/No Buttons")
 > Popup with Yes/No Buttons
 
-![Toast Notification](../images/01/popups-02.png "Toast Notification")
+![Toast Notification](/images/01/popups-02.png "Toast Notification")
 > Toast Notification
 
 # Project Requirements

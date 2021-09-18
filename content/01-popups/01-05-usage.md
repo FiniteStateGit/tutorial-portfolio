@@ -96,7 +96,7 @@ Ensure that Buttonless Popups never overlap and give them a timeout with the fol
   <img align="center" src="../images/01/ex-08.png"/>
 </a>
 
-# Clear a Popup after a Timeout*
+# Clear a Popup after a Timeout
 
 Hide any Toast notification or Popup, regardless of **Button Kind**, after a **Timeout** in *seconds*. The following function can also be used to override a Popup's timeout. If the Popup was not closed by the player before the **Timeout**, the output of **Timed Out?** will be **True**.
 
@@ -128,7 +128,7 @@ Hide any Toast notification or Popup, regardless of **Button Kind**, after a **T
 |Toast Duration|Number||In|
 |New Popup ID|Number||Out|
 
-# Show Toast when a Tag is Added*
+# Show Toast when a Tag is Added
 
 Display Toast notifications as tags are added to the player. If a tag is in the **Tag Toast Map** as a key, it's value string will be displayed as a Toast notification for the **Toast Duration** in *seconds*. Connect this function after the output of the **On Tag Added** node and provide any existing **Previous Popup ID**. Any active Toast notification is hidden. The function outputs the **Tag Added** to the player as well as the **New Popup ID**.
 

@@ -13,9 +13,7 @@ metaDescription: "Create UI slices for drag and drop stacking and non-stacking e
 
 Edit the blank Script Canvas graph that was added to the Draggable-Sprite slice.  Open *'draggable.scriptcanvas'* in the Script Canvas Editor.  Save the graph when finished.
 
-<a href="../images/03/sc-01.png">
-  <img align="center" src="../images/03/sc-01.png"/>
-</a>
+![Script Canvas graph](/images/03/sc-01.png)
 
 >  The completed Script Canvas Graph
 
@@ -39,9 +37,7 @@ Edit the blank Script Canvas graph that was added to the Draggable-Sprite slice.
 
 Edit the blank Script Canvas graph that was added to the Draggable-Stacking-Sprite slice.  Open *'stacking-draggable.scriptcanvas'* in the Script Canvas Editor.  Save the graph when finished.
 
-<a href="../images/03/sc-02.png">
-  <img align="center" src="../images/03/sc-02.png"/>
-</a>
+![Script Canvas graph](/images/03/sc-02.png)
 
 >  The completed Script Canvas Graph
 

@@ -41,9 +41,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 7. Connect the **Popup ID** output from **Show Popup** to **Hide Popup**. Alternatively, save the **Popup ID** in the Variable Manager and use Variable References to set and get the **Popup ID**.
 
-<a href="../images/01/popups-07.png">
-  <img align="center" src="../images/01/popups-07.png"/>
-</a>
+![Script Canvas graph](/images/01/popups-07.png)
 
 > Step 7: The completed Script Canvas Graph
 

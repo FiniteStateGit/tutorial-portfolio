@@ -26,9 +26,7 @@ With the completed UI slices, we can add some common game UI elements that use d
 6. Now is a good time add a stacking and non-stacking draggable slice to a few hotbar slots.  You can change the Image Index of the draggables to set sprite that is displayed.
 
 
-<a href="../images/03/drag-10.png">
-  <img align="center" src="../images/03/drag-10.png"/>
-</a>
+![Hotbar element configuration](/images/03/drag-10.png")
 
 > Step 6. The Hotbar Element Configuration
 
@@ -48,8 +46,6 @@ With the completed UI slices, we can add some common game UI elements that use d
 
 13. For this tutorial, BagSlot2 and BagSlot3 will be empty, but BagSlot1 will contain a bag.  Change the **Image** Alpha parameter of **BagSlot1** back to *1.0*.  Set the **Image** Index to *2*, the open bag sprite.  This bag will be open by default.
 
-<a href="../images/03/drag-11.png">
-  <img align="center" src="../images/03/drag-11.png"/>
-</a>
+![BagSlot1 element configuration](/images/03/drag-11.png")
 
 > Step 13. The BagSlot1 Element Configuration

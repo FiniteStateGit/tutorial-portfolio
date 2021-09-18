@@ -15,13 +15,11 @@ metaDescription: "Learn how to select objects in your game using the mouse curso
 Now that you have a function created to raycast, set up a Script Canvas graph to use it.
 
 1. In your level, add a Script Canvas component to the camera entity.
-2. In the script canvas component, press ![](/images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.
+2. In the script canvas component, press ![Open in Editor icon](/images/icons/editor/open.png) 'Open in Script Canvas Editor' to create a new Script Canvas graph for the entity.
 
 # Create the Script Canvas Graph
 
-<a href="../images/02/rc-01.png">
-  <img align="center" src="../images/02/rc-01.png"/>
-</a>
+![Script Canvas graph](/images/02/rc-01.png")
 
 >  The completed Script Canvas Graph
 

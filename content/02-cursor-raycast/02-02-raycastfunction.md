@@ -50,9 +50,7 @@ If **Draw Raycast?** is set to **True**, the raycast will be drawn on-screen in 
 
 # Graph of Function
 
-<a href="../images/02/rc-02.png">
-  <img align="center" src="../images/02/rc-02.png"/>
-</a>
+![Script Canvas graph of function](/images/02/rc-02.png)
 
 # How it Works
 

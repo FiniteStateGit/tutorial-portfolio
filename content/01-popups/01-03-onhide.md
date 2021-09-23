@@ -40,7 +40,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 7. Finally, set the **Button Kind** of the **Show Popup** node to 1. This will display Yes and No buttons on the Popup.
 
-![Script Canvas graph](/images/01/popups-09.png")
+![Script Canvas graph](/images/01/popups-09.png)
 
 > Step 7: The completed Script Canvas Graph
 

@@ -1,5 +1,5 @@
 ---
-title: "Use the Function in a SC Graph"
+title: "Using the Raycast Function"
 metaTitle: "Raycasting to the Cursor: Create a function to Raycast in Script Canvas"
 metaDescription: "Learn how to select objects in your game using the mouse cursor.  Filter the objects with Collision Groups"
 ---
@@ -19,7 +19,7 @@ Now that you have a function created to raycast, set up a Script Canvas graph to
 
 # Create the Script Canvas Graph
 
-![Script Canvas graph](/images/02/rc-01.png")
+![Script Canvas graph](/images/02/rc-01.png)
 
 >  The completed Script Canvas Graph
 

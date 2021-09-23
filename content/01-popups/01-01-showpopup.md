@@ -48,7 +48,7 @@ Note: With Button Kind 2 selected, the Popup will remain on-screen until it is h
 8. Save the graph ( Hotkey: Ctrl+S ) and close or minimize the Script Canvas editor.
 
 ![Step 8: Completed Script Canvas Graph](/images/01/popups-04.png "Step 8: Completed Script Canvas Graph")
-> Step 8: The completed Script Canvas Graph
+> Step 8: The completed Script Canvas graph
 
 9. Check that the graph has been loaded into the entity's Script Canvas component. If the **Script Canvas Asset** field is empty, press ![](/images/icons/editor/tree.png) 'Pick Script Canvas' and select the graph you created.
 

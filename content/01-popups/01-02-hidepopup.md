@@ -43,6 +43,6 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 ![Script Canvas graph](/images/01/popups-07.png)
 
-> Step 7: The completed Script Canvas Graph
+> Step 7: The completed Script Canvas graph
 
 8. Save the graph and play the level. The Popup should be hidden after 3 seconds.

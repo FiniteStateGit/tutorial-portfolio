@@ -42,7 +42,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 ![Script Canvas graph](/images/01/popups-09.png)
 
-> Step 7: The completed Script Canvas Graph
+> Step 7: The completed Script Canvas graph
 
 # Printing Player Input to the Console
 

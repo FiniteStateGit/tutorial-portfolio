@@ -26,7 +26,7 @@ metaDescription: "Learn how to use Popups to display simple notifications in the
 
 ![Script Canvas graph](/images/01/popups-12.png)
 
-> Step 3: The completed Script Canvas Graph
+> Step 3: The completed Script Canvas graph
 
 4. Save the graph and play the level. Toast notifications display in the bottom right corner of the screen when the Yes and No buttons are pressed.
 
